@@ -1,0 +1,159 @@
+body {
+    margin: 0px;
+    /* border-top: 5px solid rgb(87, 156, 87);
+    border-left: 5px solid rgb(87, 156, 87);
+    border-right: 5px solid greenyellow;
+    border-bottom: 5px groove greenyellow rgb(87, 156, 87); */
+    border: 10px groove greenyellow;
+}
+
+.container {
+    height: 300vh;
+    /* margin: -1px;
+    border-top: 7px solid greenyellow;
+    border-left: 7px solid greenyellow;
+    border-bottom: 5px solid rgb(87, 156, 87); */
+    /* border-right: 5px solid rgb(87, 156, 87); */
+    background: url(https://www.familysearch.org/en/wiki/img_auth.php/8/80/World_map_3.jpg);
+}
+
+.box {
+    display: inline-block;
+    border: 10px solid red;
+    /* text-align: center; */
+    background-color: black;
+    color: white;
+    /* font-size: 35px; */
+    font-family: 'PT Serif', serif;
+    font-family: 'PT Serif', serif;
+}
+
+#box1 {
+    width: 555px;
+    margin: 20px 0px 20px 20px;
+    border-radius: 60px;
+    font-size: 35px;
+}
+
+#pbox1 {
+    text-align: center;
+    padding: 0px 15px 24px 10px;
+}
+
+#box2 {
+    position: relative;
+    top: -23px;
+    left: -294px;
+    /* top: 45px;
+    left: 317px; */
+    width: 580px;
+    height: 80px;
+    font-size: 35px;
+    border-radius: 60px;
+    padding: 8px 2px 10px 67px;
+    /* margin: -144px 0px 0px -246px; */
+}
+
+#pbox2 {
+    text-align: center;
+}
+
+#box3 {
+    position: absolute;
+    right: 40px;
+    top: 21px;
+    width: 460px;
+    border-radius: 60px;
+    margin: 0px -21px;
+    padding: px 41px 1px 32px;
+    height: 188px;
+    font-size: 27px;
+}
+
+.pbox3 {
+    text-align: center;
+    margin-top: 23px;
+}
+
+#circle {
+    height: 400px;
+    width: 480px;
+    border: 10px solid gray;
+    border-radius: 50%;
+    background-color: rgb(76, 158, 131);
+    margin: 300px 0px 0px 25px;
+    padding: 70px 2px 0px 0px;
+    text-align: center;
+    font-size: 27px;
+    font-family: 'PT Serif', serif;
+}
+
+#form {
+    height: 850px;
+    width: 560px;
+    border: 5px dashed red;
+    position: absolute;
+    right: 376px;
+    top: 320px;
+    text-align: center;
+}
+
+label,
+.red {
+    color: red;
+}
+
+.mainform {
+    font-size: 26px;
+    margin: 20px;
+}
+
+input {
+    font-size: 18px;
+    text-align: center;
+}
+
+#menu {
+    display: block;
+    height: 88px;
+    width: 580px;
+    margin: 190px 0px 16px 539px;
+    background-color: black;
+    border: 10px solid red;
+    color: white;
+    border-radius: 60px;
+    font-size: 45px;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+}
+
+#pmenu {
+    margin: 10px;
+}
+
+.flex1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item {
+    width: 430px;
+    height: 370px;
+    background-color: aqua;
+    border: 4px solid green;
+    border-radius: 50px;
+    color: rgb(49 28 124);
+    margin-top: 45px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#item-6 {
+    height: 424px;
+}
