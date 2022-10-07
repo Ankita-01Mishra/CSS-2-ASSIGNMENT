@@ -1,5 +1,5 @@
 body {
-    margin: 0px;
+    /* margin: 0px; */
     /* border-top: 5px solid rgb(87, 156, 87);
     border-left: 5px solid rgb(87, 156, 87);
     border-right: 5px solid greenyellow;
@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-    height: 300vh;
+    /* height: 300vh; */
     /* margin: -1px;
     border-top: 7px solid greenyellow;
     border-left: 7px solid greenyellow;
@@ -93,7 +93,7 @@ body {
     width: 560px;
     border: 5px dashed red;
     position: absolute;
-    right: 376px;
+    right: 329px;
     top: 320px;
     text-align: center;
 }
@@ -140,6 +140,7 @@ input {
 .flex2 {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 120px;
 }
 
 .item {
